@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  height: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.fix-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 25px;
+}
+
+header {
+  background-color: #242434;
+  z-index: 5;
+  height: 85vh;
+  width: 100%;
+  padding-top: 130px;
+}
+
+header .hero-section {
+  background-color: white;
+  border-radius: 22px;
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+
+header .hero-section .hero-img {
+  width: 45%;
+}
+
+header .hero-section .hero-img img {
+  width: 90%;
+  border-radius: 22px;
+}
+
+header .hero-section .hero-text {
+  width: 48%;
+  padding: 100px 0px;
+}
+
+header .hero-section .hero-text h3 {
+  font-weight: 500;
+}
+
+header .hero-section .hero-text h1 {
+  font-weight: 700;
+}
+
+header .hero-section .hero-text h6 {
+  font-size: 0.9rem;
+}
+
+header .hero-section .hero-text p {
+  margin: 50px 0px;
+}
+
+header .hero-section .hero-text .contact a {
+  text-decoration: none;
+  display: block;
+  margin-top: 6px;
+  color: #242434;
+}
+
+header .hero-section .hero-text .contact a i {
+  margin-right: 6px;
+}
+
+header .hero-section .hero-text .contact a:hover {
+  -webkit-transform: translateX(12px);
+          transform: translateX(12px);
+}
+
+header .hero-section .hero-text .social-media {
+  margin-top: 50px;
+}
+
+header .hero-section .hero-text .social-media a {
+  display: inline-block;
+  width: 60px;
+  border-radius: 5px;
+  border: 1px solid #242434;
+  text-align: center;
+  color: #242434;
+  padding: 10px 0px;
+}
+
+header .hero-section .hero-text .social-media a:hover {
+  -webkit-transform: translateY(12px);
+          transform: translateY(12px);
+}
+
+@media (max-width: 986px) {
+  header .hero-section .hero-img {
+    width: 71%;
+    margin: 0 auto;
+    position: relative;
+    top: -134px;
+  }
+  header .hero-section .hero-img img {
+    width: 100%;
+  }
+  header .hero-section .hero-text {
+    padding: 0px;
+    margin-top: -69px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
